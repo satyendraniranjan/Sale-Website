@@ -23,6 +23,14 @@ class Product(models.Model):
 
     created = models.DateTimeField(default=timezone.now)
 
+    slug = models.SlugField(blank=True, null=True)
+
+
+    def save(self, *args, **kwargs):
+        if not self.slug:
+            self.slug= slugify(self.name)
+        super(Product, self).save(*args, **kwargs)
+
 
 
     def __str__(self):

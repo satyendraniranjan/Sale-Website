@@ -15,8 +15,8 @@ def productlist(request , category_slug=None):
     return render(request, template, context)
 
 
-def productdetail(request, id):
-    productdetail= Product.objects.all()
+def productdetail(request, product_slug):
+    productdetail= Product.objects.get(slug=product_slug)
 
     template = 'Product/product_detail.html'
     context = {'product_detail': productdetail}
