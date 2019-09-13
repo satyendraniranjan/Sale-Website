@@ -3,14 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="be876ce7-6d9f-4984-85b1-ff841f79ab28" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/Product/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/Product/product_detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/Product/product_detail1.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product/templates/Product/product_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/product/templates/Product/product_list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/templates/Product/product_list1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/product/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/product/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,16 +42,16 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="1260" />
-          <entry key="py" value="545" />
+          <entry key="html" value="1365" />
+          <entry key="py" value="608" />
           <entry key="requirements" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="1260" />
+          <entry key="HTML" value="1365" />
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="545" />
+          <entry key="Python" value="608" />
         </counts>
       </usages-collector>
     </session>
@@ -100,8 +94,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+            <state relative-caret-position="120">
+              <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -112,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/product/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-336">
-              <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="288">
+              <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="17" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
@@ -124,8 +118,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/product/templates/Product/product_list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="706" column="86" selection-start-line="706" selection-start-column="86" selection-end-line="706" selection-end-column="86" />
+            <state relative-caret-position="264">
+              <caret line="420" column="135" selection-start-line="420" selection-start-column="135" selection-end-line="420" selection-end-column="135" />
               <folding>
                 <element signature="n#select#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#style#0;n#option#0;n#optgroup#0;n#select#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
@@ -359,16 +353,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/product/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="20" column="43" lean-forward="true" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/product/templates/Product/product_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="24">
@@ -381,18 +365,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/product/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="19" column="46" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="288">
+          <caret line="54" column="4" lean-forward="true" selection-start-line="54" selection-start-column="4" selection-end-line="54" selection-end-column="17" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/product/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="11" column="77" selection-start-line="11" selection-start-column="77" selection-end-line="11" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/product/templates/Product/product_list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="706" column="86" selection-start-line="706" selection-start-column="86" selection-end-line="706" selection-end-column="86" />
+        <state relative-caret-position="264">
+          <caret line="420" column="135" selection-start-line="420" selection-start-column="135" selection-end-line="420" selection-end-column="135" />
           <folding>
             <element signature="n#select#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" />
             <element signature="n#style#0;n#option#0;n#optgroup#0;n#select#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />

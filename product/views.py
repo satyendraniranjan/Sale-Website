@@ -9,6 +9,7 @@ from django.shortcuts import get_object_or_404
 def productlist(request , category_slug=None):
     category = None
     productlist = Product.objects.all()
+    categorylist = Category.objects.annotate(total_products=Count('product'))
 
     template = 'Product/product_list.html'
 
@@ -18,7 +19,7 @@ def productlist(request , category_slug=None):
     productlist = paginator.get_page(page)
 
 
-    context = {'product_list': productlist}
+    context = {'product_list': productlist, 'category_list': categorylist}
     return render(request, template, context)
 
 
