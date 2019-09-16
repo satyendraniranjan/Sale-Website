@@ -15,6 +15,16 @@ def productlist(request , category_slug=None):
         category = get_object_or_404(Category, slug=category_slug)
         productlist = productlist.filter(category=category)
 
+    search_query = request.GET.get('q')
+    if search_query:
+        productlist = productlist.filter(
+            Q(name__icontains=search_query) |
+            Q(description__icontains=search_query) |
+            Q(condition__icontains=search_query) |
+            Q(brand__brand_name__icontains=search_query) |
+            Q(category__category_name__icontains=search_query)
+        )
+
 
 
     paginator = Paginator(productlist, 1)  # Show 25 contacts per page
